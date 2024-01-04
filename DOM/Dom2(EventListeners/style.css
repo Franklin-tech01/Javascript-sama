@@ -1,0 +1,81 @@
+body {
+  font-family: Jetbrains Mono;
+  background-image: linear-gradient(
+    to right,
+    rgb(3, 12, 38),
+    grey
+  );
+
+  font-family: Lato "san";
+
+ 
+}
+
+#main-heading {
+  color: white;
+
+  text-align: center;
+}
+
+/* .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+/* .boxes{
+  border: white 2px solid;
+  align-items: center;
+  display: flex;
+  height: 200px;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  margin: 0 20px;
+} */
+
+/* button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: inherit;
+  cursor: pointer;
+  outline: none;
+  border: 2px white solid;
+  color: rgb(255, 255, 255);
+  margin-top: 60px !important;
+} */
+
+.container{
+  border:2px white solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  align-items: center;
+  width: 550px;
+  display: flex;
+  height: 200px;
+  border-radius: 20px;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  justify-content: center;
+}
+
+.reveal-btn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.hidden-content{
+  display: none;
+}
+
+.hidden-content.reveal-btn{
+  display: block;
+  font-size: 20px;
+}

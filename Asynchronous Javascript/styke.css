@@ -1,0 +1,16 @@
+#post{
+    background-color: black;
+    color: wheat;
+    padding: 30px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#btn{
+    border-radius: 20px;
+    background-color: wheat;
+    width: 100px;
+    margin: 20px 0;
+    padding: 10px 0;
+    cursor: pointer;
+}

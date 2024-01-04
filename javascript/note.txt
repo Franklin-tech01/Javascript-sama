@@ -1,0 +1,23 @@
+Certainly! Here are some problems involving functions, arrays, and objects for you to solve:
+
+1. Problem: Write a function `findMax` that takes an array of numbers as input and returns the maximum number in the array.
+
+2. Problem: Write a function `reverseString` that takes a string as input and returns the reversed version of the string.
+
+3. Problem: Create an object `person` with properties `name`, `age`, and `city`. Write a function `printPersonDetails` that takes the `person` object as input and prints out the person's name, age, and city.
+
+4. Problem: Write a function `filterEvenNumbers` that takes an array of numbers as input and returns a new array containing only the even numbers from the input array.
+
+5. Problem: Write a function `calculateAverage` that takes an array of numbers as input and returns the average of the numbers.
+
+6. Problem: Create an object `car` with properties `brand`, `model`, and `year`. Write a function `displayCarInfo` that takes the `car` object as input and displays the car's brand, model, and year in a formatted string.
+
+7. Problem: Write a function `countOccurrences` that takes an array of elements and a target element as input, and returns the number of occurrences of the target element in the array.
+
+8. Problem: Write a function `removeDuplicates` that takes an array of elements as input and returns a new array with duplicate elements removed.
+
+9. Problem: Create an object `book` with properties `title`, `author`, and `year`. Write a function `updateBookYear` that takes the `book` object and a new year as input, and updates the `year` property of the book object with the new year.
+
+10. Problem: Write a function `mergeArrays` that takes two arrays as input and returns a new array that contains all the elements from both input arrays.
+
+Feel free to give them a try! If you need any help or would like to check your solutions, let me know.
