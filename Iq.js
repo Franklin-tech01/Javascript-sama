@@ -1,31 +1,40 @@
 // code to make make people leave the room based on how high or low thier IQ is
 
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
+
+
+getRandomNumber(100, 400)
 
 
 const users = [
     {
         name: 'utibe',
-        iq: 245
+        iq: getRandomNumber(100, 400)
     },
     {
         name: 'daniel',
-        iq: 321
+        iq: getRandomNumber(100, 400)
     },
     {
         name: 'femi',
-        iq: 212
+        iq: getRandomNumber(100, 400)
     }
 ]
 
 
 
 function leaveRoom() {
-    const copy_users = users.slice();
-    const sortedUsers = copy_users.sort((a, b) => a.iq - b.iq);
+    users.sort((a, b) => a.iq - b.iq);
 
-    for (const user of sortedUsers){
-        console.log(user.name, 'Left the Room')
-    }    
+    for (const user of users) {
+        console.log(user.name, 'Left the Room', user.iq)
+    }
 }
 
 leaveRoom();
+
+
+        // const sortedUsers = copy_users.sort((a, b) => a.iq - b.iq);
+    // const copy_users = users.slice();
