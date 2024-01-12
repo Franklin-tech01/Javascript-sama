@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #quiz-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 400px;
+        margin: 10% auto;
+        background-color: #292222;
+        padding: 20px;
+        color: orange;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #000;
+    }
+
+    #quiz-container input {
+        outline: none;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    #quiz-container p {
+
+        margin: 40px 0px;
+        font-size: 25px;
+        padding: 0;
+    }
+
+    #quiz-container button {
+        margin-top: 10px;
+        padding: 15px 10px;
+        background-color: orange;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #quiz-container button:hover {
+        background-color: orangered;
+        transition: 0.5s all ease;
+    }
+
+    #quiz-container #result {
+        margin-top: 35%;
+        padding: 5px 10px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div id="quiz-container">
+        <p id="question"></p>
+        <input type="text" id="answer" placeholder="Enter your answer">
+        <button onclick="checkAnswer()">Check Answer</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="indec.js"></script>
+</body>
+
+</html>
