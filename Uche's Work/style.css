@@ -1,0 +1,243 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.main-card {
+  display: flex;
+  width: 800px;
+  height: 550px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.score {
+  width: 50%;
+  background-image: linear-gradient(to bottom, rgb(99, 78, 241), rgb(99, 78, 241));
+  /* background-color: rgb(99, 78, 241); */
+  border-radius: 20px;
+  color: lightgray;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-container {
+  /* background-color: rgb(48, 48, 188); */
+  background-image: linear-gradient(to bottom, rgb(48, 48, 188), rgb(74, 74, 201));
+  border-radius: 50%;
+  /* margin:  0 auto; */
+  width: 200px;
+
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-container h2 {
+  color: white;
+  font-size: 80px;
+  margin-top: -5% !important;
+}
+
+
+
+.score-container p{
+  margin-top:  -30%;
+  font-size: 25px;
+  color: lightgray;
+}
+
+.summary {
+  width: 50%;
+  /* background-color: white; */
+  margin: 10px 20px 20px 20px;
+}
+
+
+.summary h2{
+   font-size: 30px;
+  color: navy;
+}
+
+.first {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px 20px;
+  border-radius: 8px;
+  background-color: rgb(253, 215, 221);
+  color: rgb(222, 19, 19);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.first p {
+  font-size: 20px;
+  font-weight: 700;
+  color: navy;
+}
+
+.first p span{
+  color: dimgray;
+}
+
+.second {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px 20px;
+  border-radius: 8px;
+  background-color: rgb(247, 220, 184);
+  color:rgb(255, 179, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.second p {
+  font-size: 20px;
+  font-weight: 700;
+  color: navy;
+}
+
+.second p span{
+  color: dimgray;
+}
+
+.third {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px 20px;
+  border-radius: 8px;
+  background-color: rgb(177, 243, 187);
+  color: rgb(11, 170, 48);
+  display: flex;
+  justify-content: space-between;
+}
+
+.third p {
+  font-size: 20px;
+  font-weight: 700;
+  color: navy;
+}
+
+.third p span{
+  color: dimgray;
+}
+
+.fourth {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2px 20px;
+  border-radius: 8px;
+  background-color: rgb(149, 198, 231);
+  color: rgb(59, 10, 192);
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth p {
+  font-size: 20px;
+  font-weight: 700;
+  color: navy;
+}
+
+.fourth p span{
+  color: dimgrey;
+}
+
+button {
+  margin-top: 20px;
+ margin-left: 30px;
+  margin-right: 20px;
+   width: 300px;
+   font-size: 20px;
+  padding: 13px 30px;
+  border-radius:50px;
+  background-color: rgb(43, 43, 83);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(99, 78, 241);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .main-card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .score {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .score-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .score-container h2 {
+    font-size: 40px;
+  }
+
+  .score-container p {
+    font-size: 15px;
+  }
+
+  .summary {
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .summary h2 {
+    font-size: 20px;
+  }
+
+  .first p {
+    font-size: 15px;
+  }
+
+  .second p {
+    font-size: 15px;
+  }
+
+  .third p {
+    font-size: 15px;
+  }
+
+  .fourth p {
+    font-size: 15px;
+  }
+
+  button {
+    width: 300px;
+    margin: 20px auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
